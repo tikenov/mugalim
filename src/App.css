@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 1140px;
+  margin: 0 auto;
+  color: #051d3f;
+  padding: 0 20px;
+}
+
+.accent {
+  color: #EAB32D;
+}
+
+/* Page transition animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: fadeIn 0.4s ease-out forwards;
+}

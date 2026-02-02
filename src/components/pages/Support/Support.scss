@@ -1,0 +1,101 @@
+.support .page-title {
+  text-align: center;
+}
+
+.support-content {
+  text-align: left;
+}
+
+.support-content section {
+  margin: 32px 0;
+}
+
+.support-quote {
+  margin-bottom: 0;
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  cite {
+    font-style: normal;
+  }
+
+  .accent {
+    color: #EAB32D;
+    font-weight: 600;
+  }
+}
+
+.support-qr {
+  margin-bottom: 0;
+}
+
+.support-qr-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 32px;
+  align-items: center;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.support-qr-text {
+  flex: 1;
+}
+
+.qr-box {
+  flex-shrink: 0;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(5, 29, 63, 0.1);
+}
+
+.qr-image {
+  display: block;
+  border-radius: 8px;
+}
+
+.bank-details {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.bank-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(5, 29, 63, 0.08);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.bank-row-account {
+  align-items: center;
+}
+
+.bank-label {
+  flex: 0 0 120px;
+  min-width: 100px;
+}
+
+.bank-value {
+  flex: 1;
+  word-break: break-word;
+}
+
+.account-number {
+  font-family: monospace;
+  font-weight: 600;
+}

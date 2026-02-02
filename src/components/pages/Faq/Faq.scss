@@ -1,0 +1,25 @@
+
+.faq-content {
+  text-align: left;
+}
+
+.faq-accordion {
+  margin-bottom: 40px;
+
+  a {
+    color: #EAB32D;
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.faq-cta {
+  padding: 28px;
+  background: rgba(234, 179, 45, 0.1);
+  border-radius: 16px;
+  text-align: center;
+}

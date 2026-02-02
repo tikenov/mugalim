@@ -1,0 +1,91 @@
+
+.participants-hero {
+  text-align: center;
+  margin-bottom: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(5, 29, 63, 0.08);
+}
+
+.participants-hero .page-title {
+  margin-bottom: 16px;
+}
+
+.hero-subtitle {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.75;
+  color: #051d3f;
+  opacity: 0.95;
+}
+
+.participants-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.participants-section {
+  text-align: left;
+}
+
+// section-title uses shared style
+.participants-section .section-title {
+  margin-bottom: 20px;
+}
+
+.benefits-grid {
+  margin: 0;
+}
+
+.benefit-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px 20px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(5, 29, 63, 0.06);
+  transition: all 0.25s ease;
+
+  &:hover {
+    border-color: rgba(234, 179, 45, 0.4);
+    box-shadow: 0 6px 20px rgba(234, 179, 45, 0.12);
+  }
+}
+
+.benefit-icon {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(234, 179, 45, 0.15);
+  color: #051d3f;
+  border-radius: 10px;
+}
+
+.requirements-grid {
+  margin: 0;
+}
+
+.requirement-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: rgba(5, 29, 63, 0.03);
+  border-radius: 10px;
+  border-left: 3px solid #EAB32D;
+}
+
+.requirement-check {
+  flex-shrink: 0;
+  color: #EAB32D;
+}
+
+.cta-text {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}

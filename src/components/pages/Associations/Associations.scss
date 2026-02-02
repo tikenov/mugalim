@@ -1,0 +1,58 @@
+.associations {
+  text-align: center;
+}
+
+.associations-intro {
+  margin-bottom: 48px;
+  text-align: center;
+
+  .accent {
+    color: #EAB32D;
+    font-weight: 700;
+  }
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  align-items: start;
+}
+
+.partner-card {
+  transition: transform 0.2s ease;
+}
+
+.partner-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 28px 20px;
+  background: #fff;
+  border: 1px solid rgba(5, 29, 63, 0.08);
+  border-radius: 16px;
+  text-decoration: none;
+  color: #051d3f;
+  transition: all 0.2s ease;
+
+  &:hover:not(.partner-link-disabled) {
+    border-color: #EAB32D;
+    box-shadow: 0 8px 24px rgba(234, 179, 45, 0.15);
+  }
+}
+
+.partner-link-disabled {
+  cursor: default;
+  opacity: 0.9;
+}
+
+.partner-logo {
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+}
+
+.partner-name {
+  color: #051d3f;
+}

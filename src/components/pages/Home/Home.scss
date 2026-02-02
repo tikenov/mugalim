@@ -1,0 +1,79 @@
+.home {
+  text-align: center;
+}
+
+.hero {
+  margin-bottom: 48px;
+}
+
+.hero-title {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.4;
+  font-weight: 700;
+  color: #051d3f;
+
+  .accent {
+    color: #EAB32D;
+  }
+}
+
+.cta-section {
+  margin-bottom: 56px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+// Buttons use shared .btn, .btn-primary, .btn-secondary from _page-shared
+
+.stats-section {
+  margin-top: 32px;
+}
+
+.stats-section .section-title {
+  margin-bottom: 32px;
+}
+
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.stat-card {
+  background: linear-gradient(145deg, #EAB32D 0%, #d4a028 100%);
+  border-radius: 16px;
+  padding: 24px;
+  min-width: 140px;
+  max-width: 160px;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.stat-value {
+  color: #051d3f;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.stat-title {
+  color: #051d3f;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.stat-desc {
+  color: rgba(5, 29, 63, 0.7);
+  margin-top: 4px;
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mugalim/static/css/main.d5d6771d.css",
+    "main.js": "/mugalim/static/js/main.8ba949d6.js",
+    "static/js/808.8c6449ee.chunk.js": "/mugalim/static/js/808.8c6449ee.chunk.js",
+    "static/media/nurorda.png": "/mugalim/static/media/nurorda.583a0750138cdd09a8d0.png",
+    "static/media/qr.jpeg": "/mugalim/static/media/qr.f69c3fa8b46d4885e86f.jpeg",
+    "static/media/nis.jpg": "/mugalim/static/media/nis.0eac60a073723ad181f8.jpg",
+    "static/media/asar_ume.png": "/mugalim/static/media/asar_ume.47f6337847b56fc7dca8.png",
+    "static/media/logo.svg": "/mugalim/static/media/logo.46fb1b7297f20f01fbfb0b7754cf4cfe.svg",
+    "index.html": "/mugalim/index.html",
+    "main.d5d6771d.css.map": "/mugalim/static/css/main.d5d6771d.css.map",
+    "main.8ba949d6.js.map": "/mugalim/static/js/main.8ba949d6.js.map",
+    "808.8c6449ee.chunk.js.map": "/mugalim/static/js/808.8c6449ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5d6771d.css",
+    "static/js/main.8ba949d6.js"
+  ]
+}

@@ -6,13 +6,20 @@ import { MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 
 const theme = {
-  fontFamily: "'Manrope', -apple-system, BlinkMacSystemFont, sans-serif",
+  // Using Inter as the primary for a cleaner, "Apple-pro" look
+  // It handles Kazakh diacritics (like Ә, І, Ң) better than Manrope
+  fontFamily: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+  
   primaryColor: 'dark',
+  
   colors: {
-    dark: ['#f1f3f5', '#e9ecef', '#dee2e6', '#ced4da', '#adb5bd', '#868e96', '#495057', '#343a40', '#212529', '#051d3f'],
+    // Refined the deep dark shade (#051d3f) to a more neutral Apple "Midnight"
+    dark: ['#f1f3f5', '#e9ecef', '#dee2e6', '#ced4da', '#adb5bd', '#868e96', '#495057', '#343a40', '#212529', '#1a1a1a'],
   },
+
   headings: {
-    fontFamily: "'Manrope', sans-serif",
+    // Apple uses the same font for headings and body, just with tighter tracking
+    fontFamily: "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
     fontWeight: '700',
   },
 };

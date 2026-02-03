@@ -6,6 +6,7 @@ import './Header.scss';
 import { Link, useLocation } from 'react-router-dom';
 
 const navItems = [
+  { label: 'Басқы бет', url: '/' },
   { label: 'Жоба туралы', url: '/about' },
   { label: 'Қатысушыларға', url: '/participants' },
   { label: 'Бірлестіктер', url: '/associations' },
@@ -51,11 +52,11 @@ const Header = () => {
       <Drawer
         opened={drawerOpened}
         onClose={closeDrawer}
-        size="100%"
+        size="62%"
         padding="md"
         hiddenFrom="md"
+        withCloseButton={false}
         zIndex={1000000}
-        title="Навигация"
       >
         <ScrollArea h={`calc(100vh - ${rem(100)})`} mx="-md" className="drawer-scroll">
           <nav className="drawer-nav" aria-label="Мобильді навигация">

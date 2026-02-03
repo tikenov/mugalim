@@ -1,4 +1,4 @@
-import { Title, Text, Box, Group } from '@mantine/core';
+import { Title, Text, Box } from '@mantine/core';
 import { IconPhone, IconMail, IconMapPin, IconBrandInstagram } from '@tabler/icons-react';
 import React from 'react';
 import './Contacts.scss';

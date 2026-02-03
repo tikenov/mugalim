@@ -1,4 +1,4 @@
-import { Title, Text, Box, SimpleGrid } from '@mantine/core';
+import { Title, Text, SimpleGrid } from '@mantine/core';
 import {
   IconCash,
   IconBuilding,

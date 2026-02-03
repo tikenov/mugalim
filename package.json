@@ -2,7 +2,7 @@
   "name": "mugalim",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tikenov.github.io/mugalim",
+  "homepage": "https://mugalim.top",
   "dependencies": {
     "@mantine/core": "^7.5.2",
     "@mantine/hooks": "^7.5.2",
